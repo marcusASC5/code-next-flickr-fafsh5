@@ -1,0 +1,5 @@
+.spaced {
+  font-family: "Calibri";
+  display: flex;
+  justify-content: space-between;
+}

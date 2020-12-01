@@ -16,7 +16,7 @@ export const Config = props => {
     setTested(false);
 
     setRes(null);
-    FlickrAPI.search(apiKey, "food", 3, nextRes => {
+    FlickrAPI.search(apiKey, "water", 10, nextRes => {
       setRes(nextRes);
       setPending(false);
       setTested(true);
